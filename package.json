@@ -2,6 +2,7 @@
   "name": "vuepress-theme-hope-happytjh",
   "description": "A personal electronic log",
   "version": "1.0.0",
+  "packageManager": "pnpm@9.15.4",
   "license": "MIT",
   "type": "module",
   "scripts": {
