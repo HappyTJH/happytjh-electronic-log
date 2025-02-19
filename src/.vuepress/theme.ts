@@ -38,45 +38,45 @@ export default hopeTheme({
   },
 
   blog: {
-    description: "Fudan University undergraduate student",
+    description: "Great hopes make great man.",
     intro: "/intro.html",
-    medias: {
-      Baidu: "https://example.com",
-      BiliBili: "https://example.com",
-      Bitbucket: "https://example.com",
-      Dingding: "https://example.com",
-      Discord: "https://example.com",
-      Dribbble: "https://example.com",
-      Email: "mailto:info@example.com",
-      Evernote: "https://example.com",
-      Facebook: "https://example.com",
-      Flipboard: "https://example.com",
-      Gitee: "https://example.com",
-      GitHub: "https://example.com",
-      Gitlab: "https://example.com",
-      Gmail: "mailto:info@example.com",
-      Instagram: "https://example.com",
-      Lark: "https://example.com",
-      Lines: "https://example.com",
-      Linkedin: "https://example.com",
-      Pinterest: "https://example.com",
-      Pocket: "https://example.com",
-      QQ: "https://example.com",
-      Qzone: "https://example.com",
-      Reddit: "https://example.com",
-      Rss: "https://example.com",
-      Steam: "https://example.com",
-      Twitter: "https://example.com",
-      Wechat: "https://example.com",
-      Weibo: "https://example.com",
-      Whatsapp: "https://example.com",
-      Youtube: "https://example.com",
-      Zhihu: "https://example.com",
-      VuePressThemeHope: {
-        icon: "https://theme-hope-assets.vuejs.press/logo.svg",
-        link: "https://theme-hope.vuejs.press",
-      },
-    },
+    // medias: {
+    //   Baidu: "https://example.com",
+    //   BiliBili: "https://example.com",
+    //   Bitbucket: "https://example.com",
+    //   Dingding: "https://example.com",
+    //   Discord: "https://example.com",
+    //   Dribbble: "https://example.com",
+    //   Email: "mailto:info@example.com",
+    //   Evernote: "https://example.com",
+    //   Facebook: "https://example.com",
+    //   Flipboard: "https://example.com",
+    //   Gitee: "https://example.com",
+    //   GitHub: "https://example.com",
+    //   Gitlab: "https://example.com",
+    //   Gmail: "mailto:info@example.com",
+    //   Instagram: "https://example.com",
+    //   Lark: "https://example.com",
+    //   Lines: "https://example.com",
+    //   Linkedin: "https://example.com",
+    //   Pinterest: "https://example.com",
+    //   Pocket: "https://example.com",
+    //   QQ: "https://example.com",
+    //   Qzone: "https://example.com",
+    //   Reddit: "https://example.com",
+    //   Rss: "https://example.com",
+    //   Steam: "https://example.com",
+    //   Twitter: "https://example.com",
+    //   Wechat: "https://example.com",
+    //   Weibo: "https://example.com",
+    //   Whatsapp: "https://example.com",
+    //   Youtube: "https://example.com",
+    //   Zhihu: "https://example.com",
+    //   VuePressThemeHope: {
+    //     icon: "https://theme-hope-assets.vuejs.press/logo.svg",
+    //     link: "https://theme-hope.vuejs.press",
+    //   },
+    // },
   },
 
   metaLocales: {
@@ -121,12 +121,12 @@ export default hopeTheme({
     vPre: true,
 
     // uncomment these if you need TeX support
-    // math: {
+    math: {
     //   // install katex before enabling it
     //   type: "katex",
     //   // or install mathjax-full before enabling it
-    //   type: "mathjax",
-    // },
+      type: "mathjax",
+    },
 
     // install chart.js before enabling it
     // chartjs: true,
@@ -138,7 +138,7 @@ export default hopeTheme({
     // flowchart: true,
 
     // install mermaid before enabling it
-    // mermaid: true,
+    mermaid: true,
 
     // playground: {
     //   presets: ["ts", "vue"],
