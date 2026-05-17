@@ -2,49 +2,44 @@
 home: true
 layout: BlogHome
 icon: house
-title: Blog Home
+title: Home
 # heroImage: https://theme-hope-assets.vuejs.press/logo.svg
 heroText: HappyTJH's electronic log
 bgImage: /assets/images/bgImage.webp
 bgImageDark: /assets/images/bgImageDark.webp
-tagline: Welcome to Monkey Kingdom!
+tagline: Research notes, project links, and AI agent workflows from a Fudan science student.
 heroFullScreen: true
 projects:
-  - icon: folder-open
-    name: project name
-    desc: project detailed description
-    link: https://your.project.link
+  - icon: material-symbols:genetics-rounded
+    name: Fudan iGEM 2025 Modeling
+    desc: Notes on virtual cell modeling, biological simulation, and model-experiment integration.
+    link: /posts/Model_progress%20in%20winter%20holiday/Model%20Conception_Fudan%20iGEM%202025.html
 
-  - icon: link
-    name: link name
-    desc: link detailed description
-    link: https://link.address
+  - icon: material-symbols:hive
+    name: Yeast Simulation App
+    desc: A project note for simulation-oriented biological modeling work.
+    link: /posts/yeast_simulation_app.html
 
-  - icon: book
-    name: book name
-    desc: Detailed description of the book
-    link: https://link.to.your.book
+  - icon: material-symbols:kid-star
+    name: Fudan iGEM 2024 Replica
+    desc: A structured archive of project, technology, community, and team pages.
+    link: /posts/replica_fudan_igem2024/
 
-  - icon: newspaper
-    name: article name
-    desc: Detailed description of the article
-    link: https://link.to.your.article
+  - icon: list-check
+    name: AI Agent Tasks
+    desc: A lightweight board for ideas and operations that AI agents can help execute.
+    link: /agent-tasks.html
 
-  - icon: user-group
-    name: friend name
-    desc: Detailed description of friend
-    link: https://link.to.your.friend
+  - icon: github
+    name: GitHub Repository
+    desc: Source repository for this personal electronic log.
+    link: https://github.com/HappyTJH/happytjh-electronic-log
 
-  - icon: https://theme-hope-assets.vuejs.press/logo.svg
-    name: custom item
-    desc: Detailed description of this custom item
-    link: https://link.to.your.friend
-
-footer: customize your footer text
+footer: Built and maintained as HappyTJH's personal research log.
 ---
 
-This is a blog home page demo.
+Welcome. This site is a personal research log for collecting scientific projects, modeling notes, and AI-assisted workflows.
 
-To use this layout, you should set both `layout: BlogHome` and `home: true` in the page front matter.
+I am a Fudan University science student interested in research projects, modeling, and using AI agents as practical collaborators for long-term work.
 
-For related configuration docs, please see [blog homepage](https://theme-hope.vuejs.press/guide/blog/home.html).
+Use the project cards above as quick entrances. The site will keep growing around three habits: writing down research progress, linking project outputs, and keeping a visible queue of useful things to ask Codex and other AI agents to help with.

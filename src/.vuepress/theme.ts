@@ -4,16 +4,16 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://happytjh.github.io",
 
   author: {
-    name: "Tang J.H.",
-    url: "https://mister-hope.com",
+    name: "HappyTJH / Tang J.H.",
+    url: "https://github.com/HappyTJH",
   },
 
-  logo: "https://i.miji.bid/2025/02/03/49b57a44ae9c1c03c04bf79b45b2a9a2.png",
+  logo: "/logo.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "HappyTJH/happytjh-electronic-log",
 
   docsDir: "src",
 
@@ -24,7 +24,7 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
-  footer: "Default footer",
+  footer: "HappyTJH's personal research log.",
 
   displayFooter: true,
 
@@ -38,7 +38,8 @@ export default hopeTheme({
   },
 
   blog: {
-    description: "Great hopes make great man.",
+    description:
+      "Research notes, project links, and AI agent workflows from a Fudan science student.",
     intro: "/intro.html",
     // medias: {
     //   Baidu: "https://example.com",
