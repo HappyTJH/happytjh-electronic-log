@@ -11,18 +11,8 @@ heroFullScreen: true
 projects:
   - icon: material-symbols:genetics-rounded
     name: Fudan iGEM 2025 建模
-    desc: 关于虚拟细胞建模、生物仿真、实验与模型整合的阶段性记录。
-    link: /posts/Model_progress%20in%20winter%20holiday/Model%20Conception_Fudan%20iGEM%202025.html
-
-  - icon: material-symbols:hive
-    name: 酵母仿真应用
-    desc: 面向生物建模与仿真工作的项目记录。
-    link: /posts/yeast_simulation_app.html
-
-  - icon: material-symbols:kid-star
-    name: Fudan iGEM 2024 复刻归档
-    desc: 项目、技术、社区和团队页面的结构化归档。
-    link: /posts/replica_fudan_igem2024/
+    desc: 面向多细胞酵母的 AI 辅助荧光计时器建模、YeastVerse 可视化与湿实验设计。
+    link: /zh/fudan-igem-2025.html
 
   - icon: list-check
     name: AI Agent 任务板

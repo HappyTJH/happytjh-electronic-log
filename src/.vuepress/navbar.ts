@@ -2,7 +2,18 @@ import { navbar } from "vuepress-theme-hope";
 
 export const enNavbar = navbar([
   "/",
-  "/projects.html",
+  {
+    text: "Projects",
+    icon: "folder-open",
+    children: [
+      { text: "Overview", icon: "folder-open", link: "/projects.html" },
+      {
+        text: "Fudan iGEM 2025 Modeling",
+        icon: "material-symbols:genetics-rounded",
+        link: "/fudan-igem-2025.html",
+      },
+    ],
+  },
   "/agent-tasks.html",
   {
     text: "Posts",
@@ -55,7 +66,18 @@ export const enNavbar = navbar([
 
 export const zhNavbar = navbar([
   "/zh/",
-  "/zh/projects.html",
+  {
+    text: "项目",
+    icon: "folder-open",
+    children: [
+      { text: "总览", icon: "folder-open", link: "/zh/projects.html" },
+      {
+        text: "Fudan iGEM 2025 建模",
+        icon: "material-symbols:genetics-rounded",
+        link: "/zh/fudan-igem-2025.html",
+      },
+    ],
+  },
   "/zh/agent-tasks.html",
   {
     text: "文章",

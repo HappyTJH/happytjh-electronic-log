@@ -12,18 +12,8 @@ heroFullScreen: true
 projects:
   - icon: material-symbols:genetics-rounded
     name: Fudan iGEM 2025 Modeling
-    desc: Notes on virtual cell modeling, biological simulation, and model-experiment integration.
-    link: /posts/Model_progress%20in%20winter%20holiday/Model%20Conception_Fudan%20iGEM%202025.html
-
-  - icon: material-symbols:hive
-    name: Yeast Simulation App
-    desc: A project note for simulation-oriented biological modeling work.
-    link: /posts/yeast_simulation_app.html
-
-  - icon: material-symbols:kid-star
-    name: Fudan iGEM 2024 Replica
-    desc: A structured archive of project, technology, community, and team pages.
-    link: /posts/replica_fudan_igem2024/
+    desc: AI-augmented fluorescent timer modeling, YeastVerse visualization, and wet-lab guided design for multicellular yeast.
+    link: /fudan-igem-2025.html
 
   - icon: list-check
     name: AI Agent Tasks

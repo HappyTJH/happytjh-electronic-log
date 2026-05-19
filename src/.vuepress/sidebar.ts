@@ -6,7 +6,11 @@ export const enSidebar = sidebar({
     {
       text: "Projects",
       icon: "folder-open",
-      link: "projects",
+      prefix: "/",
+      children: [
+        "projects",
+        "fudan-igem-2025",
+      ],
     },
     {
       text: "Agent Tasks",
@@ -29,7 +33,11 @@ export const zhSidebar = sidebar({
     {
       text: "科研项目",
       icon: "folder-open",
-      link: "projects",
+      prefix: "/zh/",
+      children: [
+        "projects",
+        "fudan-igem-2025",
+      ],
     },
     {
       text: "Agent 任务板",

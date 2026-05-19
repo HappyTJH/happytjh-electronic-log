@@ -9,14 +9,8 @@ title: 科研项目
 
 ## 精选
 
-- [Fudan iGEM 2025 建模](/posts/Model_progress%20in%20winter%20holiday/Model%20Conception_Fudan%20iGEM%202025.html)
-  关于虚拟细胞建模、生物仿真、实验与模型整合的阶段性记录。
-
-- [酵母仿真应用](/posts/yeast_simulation_app.html)
-  面向生物建模与仿真工作的项目记录。
-
-- [Fudan iGEM 2024 复刻归档](/posts/replica_fudan_igem2024/)
-  项目、技术、社区和团队页面的结构化归档。
+- [Fudan iGEM 2025 建模](/zh/fudan-igem-2025.html)
+  合并展示 AI 辅助荧光计时器建模、三维酵母可视化、湿实验验证和答辩准备。
 
 ## 待补充
 
