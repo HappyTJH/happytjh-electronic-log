@@ -11,7 +11,7 @@ heroFullScreen: true
 projects:
   - icon: material-symbols:genetics-rounded
     name: Fudan iGEM 2025 建模
-    desc: 面向多细胞酵母的 AI 辅助荧光计时器建模、YeastVerse 可视化与湿实验设计。
+    desc: 我在 Fudan iGEM 2025 中负责 Model 板块，这里链接官方 Wiki 与成员证书。
     link: /zh/fudan-igem-2025.html
 
   - icon: list-check

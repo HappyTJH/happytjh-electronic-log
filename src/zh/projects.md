@@ -10,7 +10,7 @@ title: 科研项目
 ## 精选
 
 - [Fudan iGEM 2025 建模](/zh/fudan-igem-2025.html)
-  合并展示 AI 辅助荧光计时器建模、三维酵母可视化、湿实验验证和答辩准备。
+  我在 Fudan iGEM 2025 中负责 Model 板块，这里链接官方 Wiki 与成员证书。
 
 ## 待补充
 

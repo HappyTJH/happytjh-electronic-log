@@ -12,7 +12,7 @@ heroFullScreen: true
 projects:
   - icon: material-symbols:genetics-rounded
     name: Fudan iGEM 2025 Modeling
-    desc: AI-augmented fluorescent timer modeling, YeastVerse visualization, and wet-lab guided design for multicellular yeast.
+    desc: My model contribution to Fudan iGEM 2025, with links to the official team Wiki and certificate.
     link: /fudan-igem-2025.html
 
   - icon: list-check
