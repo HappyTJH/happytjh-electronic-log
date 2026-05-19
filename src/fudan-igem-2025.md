@@ -12,7 +12,7 @@ Fudan iGEM 2025 is documented on our official team Wiki. This page keeps a brief
 - [Fudan iGEM 2025 Wiki](https://2025.igem.wiki/fudan/)
 - [Model Page](https://2025.igem.wiki/fudan/model/)
 - [Team Page](https://2025.igem.wiki/fudan/team/)
-- [Member Certificate](/assets/docs/igem-certificates-2025-5643-member.pdf)
+- [Member Certificate PDF](/happytjh-electronic-log/assets/docs/igem-certificates-2025-5643-member.pdf)
 
 ## My Role
 
@@ -67,4 +67,6 @@ The important claim is not that the model was perfect, but that it made the expe
 
 ## Certificate
 
-The official member certificate is available here: [iGEM 2025 Member Certificate](/assets/docs/igem-certificates-2025-5643-member.pdf).
+![iGEM 2025 Member Certificate](/happytjh-electronic-log/assets/images/igem-certificates-2025-5643-member.png)
+
+The official member certificate is also available as a [PDF](/happytjh-electronic-log/assets/docs/igem-certificates-2025-5643-member.pdf).
