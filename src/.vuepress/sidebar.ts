@@ -1,6 +1,6 @@
 import { sidebar } from "vuepress-theme-hope";
 
-export default sidebar({
+export const enSidebar = sidebar({
   "/": [
     "",
     {
@@ -22,3 +22,28 @@ export default sidebar({
     "intro",
   ],
 });
+
+export const zhSidebar = sidebar({
+  "/zh/": [
+    "",
+    {
+      text: "科研项目",
+      icon: "folder-open",
+      link: "projects",
+    },
+    {
+      text: "Agent 任务板",
+      icon: "list-check",
+      link: "agent-tasks",
+    },
+    {
+      text: "文章",
+      icon: "book",
+      prefix: "/posts/",
+      children: "structure",
+    },
+    "intro",
+  ],
+});
+
+export default enSidebar;

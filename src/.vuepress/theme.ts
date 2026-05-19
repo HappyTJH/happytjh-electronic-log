@@ -1,7 +1,7 @@
 import { hopeTheme } from "vuepress-theme-hope";
 
-import navbar from "./navbar.js";
-import sidebar from "./sidebar.js";
+import { enNavbar, zhNavbar } from "./navbar.js";
+import { enSidebar, zhSidebar } from "./sidebar.js";
 
 export default hopeTheme({
   hostname: "https://happytjh.github.io",
@@ -17,12 +17,7 @@ export default hopeTheme({
 
   docsDir: "src",
 
-  // navbar
-  navbar,
   navbarAutoHide: 'always',
-
-  // sidebar
-  sidebar,
 
   footer: "HappyTJH's personal research log.",
 
@@ -82,6 +77,40 @@ export default hopeTheme({
 
   metaLocales: {
     editLink: "Edit this page on GitHub",
+  },
+
+  locales: {
+    "/": {
+      lang: "en-US",
+      navbar: enNavbar,
+      sidebar: enSidebar,
+      langName: "English",
+      selectLangAriaLabel: "Select language",
+      footer: "HappyTJH's personal research log.",
+      blog: {
+        description:
+          "Research notes, project links, and AI agent workflows from a Fudan science student.",
+        intro: "/intro.html",
+      },
+      metaLocales: {
+        editLink: "Edit this page on GitHub",
+      },
+    },
+    "/zh/": {
+      lang: "zh-CN",
+      navbar: zhNavbar,
+      sidebar: zhSidebar,
+      langName: "简体中文",
+      selectLangAriaLabel: "选择语言",
+      footer: "HappyTJH 的个人科研日志。",
+      blog: {
+        description: "复旦理工科学生的科研记录、项目链接与 AI agent 工作流。",
+        intro: "/zh/intro.html",
+      },
+      metaLocales: {
+        editLink: "在 GitHub 上编辑此页",
+      },
+    },
   },
 
   // enable it to preview all changes in time
