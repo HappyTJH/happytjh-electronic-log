@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://mister-hope.github.io/happytjh-electronic-log/sitemap.xml
+Sitemap: https://happytjh.github.io/happytjh-electronic-log/sitemap.xml
